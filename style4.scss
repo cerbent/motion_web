@@ -1,0 +1,162 @@
+@import "reset";
+@import "mixin";
+@import "variebles";
+
+
+#header{
+  background: black;
+  box-shadow: 90px 10px 20px 9px green;
+  .header{
+    @include sa;
+    &--block{
+      img{
+        animation: dou 2s ease-out;
+        @keyframes dou {
+          0%{
+            transform: translateX(-200px);
+          }
+        }
+      }
+    }
+    &--a{
+      animation: gou 2s ease-out;
+      @keyframes gou {
+        0%{
+          transform: translatey(-400px);
+        }
+      }
+      a{
+        @include a;
+        margin: 0 20px;
+
+        &:hover{
+          color: #FFFFFF;
+        }
+
+      }
+    }
+    &--fotter {
+      animation: jan 2s ease-out;
+      @keyframes jan {
+        0%{
+          transform: translatex(-400px);
+        }
+      }
+      select{
+        border: none;
+        background: #1E2024;
+        color: #FFFFFF;
+      }
+      button{
+        width: 100px;
+        height: 40px;
+        background: #0096C7;
+        border-radius: 10px;
+        &:hover{
+          background: rgba(0, 20, 24, 0.95);
+        }
+      }
+    }
+  }
+}
+
+#registir{
+  background: rgba(0, 20, 24, 0.95);
+  .register{
+    display: flex;
+    justify-content: space-around;
+
+    &--title{
+      h1{
+        width: 397px;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+      }
+      p{
+        margin: 10px 0;
+        width: 268px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #9099A3;
+      }
+    }
+    &--block{
+      animation: hah 2s ease-out;
+      @keyframes hah {
+        0%{
+          transform: translatex(400px);
+        }
+      }
+      &__inputs{
+        //display: flex;
+        //justify-content: space-between;
+        &--login1{
+          p{
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+          input{
+            margin: 10px 0;
+            width: 616px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+          }
+        }
+        &--login2{
+          p{
+            p{
+              font-weight: 400;
+              font-size: 14px;
+              color: #9099A3;
+            }
+            input{
+              width: 616px;
+              height: 60px;
+              background: rgba(255, 255, 255, 0.2);
+              border-radius: 10px;
+            }
+
+          }
+          p{
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+          input{
+            width: 616px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+          }
+        }
+        &--login4{
+          display: flex;
+          p{
+            width: 306px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+          button{
+            font-weight: 700;
+            font-size: 18px;
+            color: #FFFFFF;
+            width: 280px;
+            height: 50px;
+            background: #0096C7;
+            border-radius: 10px;
+            border: none;
+            &:hover{
+              background: #9099A3;
+              color: #0096C7;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

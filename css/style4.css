@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+#header {
+  background: black;
+  box-shadow: 90px 10px 20px 9px green;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header--block img {
+  animation: dou 2s ease-out;
+}
+@keyframes dou {
+  0% {
+    transform: translateX(-200px);
+  }
+}
+#header .header--a {
+  animation: gou 2s ease-out;
+}
+@keyframes gou {
+  0% {
+    transform: translatey(-400px);
+  }
+}
+#header .header--a a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  margin: 0 20px;
+}
+#header .header--a a:hover {
+  color: #FFFFFF;
+}
+#header .header--fotter {
+  animation: jan 2s ease-out;
+}
+@keyframes jan {
+  0% {
+    transform: translatex(-400px);
+  }
+}
+#header .header--fotter select {
+  border: none;
+  background: #1E2024;
+  color: #FFFFFF;
+}
+#header .header--fotter button {
+  width: 100px;
+  height: 40px;
+  background: #0096C7;
+  border-radius: 10px;
+}
+#header .header--fotter button:hover {
+  background: rgba(0, 20, 24, 0.95);
+}
+
+#registir {
+  background: rgba(0, 20, 24, 0.95);
+}
+#registir .register {
+  display: flex;
+  justify-content: space-around;
+}
+#registir .register--title h1 {
+  width: 397px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+#registir .register--title p {
+  margin: 10px 0;
+  width: 268px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9099A3;
+}
+#registir .register--block {
+  animation: hah 2s ease-out;
+}
+@keyframes hah {
+  0% {
+    transform: translatex(400px);
+  }
+}
+#registir .register--block__inputs--login1 p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#registir .register--block__inputs--login1 input {
+  margin: 10px 0;
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#registir .register--block__inputs--login2 p p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#registir .register--block__inputs--login2 p input {
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#registir .register--block__inputs--login2 p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#registir .register--block__inputs--login2 input {
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#registir .register--block__inputs--login4 {
+  display: flex;
+}
+#registir .register--block__inputs--login4 p {
+  width: 306px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#registir .register--block__inputs--login4 button {
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  width: 280px;
+  height: 50px;
+  background: #0096C7;
+  border-radius: 10px;
+  border: none;
+}
+#registir .register--block__inputs--login4 button:hover {
+  background: #9099A3;
+  color: #0096C7;
+}
+
+/*# sourceMappingURL=style4.css.map */

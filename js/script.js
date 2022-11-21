@@ -30,3 +30,10 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+const items = document.querySelectorAll(".item");
+
+items.forEach((item) => {
+    item.addEventListener("click", () => {
+        item.classList.toggle("open");
+    });
+});
